@@ -1,7 +1,28 @@
 aid: max-retail
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/max-retail.png
 name: Max Retail
-description: Max Retail is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Max Retail is a Techstars-backed platform that helps brick-and-mortar
+  boutiques and multi-location retailers turn unsold and aged inventory into
+  cash. Retailers connect their point-of-sale or e-commerce system — Shopify,
+  RICS, or Square — or upload a CSV, and Max Retail lists, markets, and sells the
+  items to a network of shoppers across multiple channels, handles customer
+  service, and pays out through Stripe when a prepaid shipping label is scanned.
+  The retailer only ships; Max Retail charges a flat 15% fee plus shipping. Max
+  Retail integrates inbound with third-party commerce platforms and payment
+  processors but does not publish a public developer API, SDKs, or a webhook
+  surface of its own.
 url: https://raw.githubusercontent.com/api-evangelist/max-retail/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +32,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- Inventory
+- E-commerce
+- Point of Sale
+- Resale
+- Payments
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/max-retail-domain-security.yml
 - type: Website
   url: https://maxretail.com/
+- type: GettingStarted
+  url: https://maxretail.com/how-it-works/
+- type: SignUp
+  url: https://maxretail.com/start-selling/
+- type: Login
+  url: https://retailers.maxretail.com/
+- type: Pricing
+  url: https://maxretail.com/how-it-works-pricing/
+- type: PrivacyPolicy
+  url: https://maxretail.com/privacy-policy/
+- type: Support
+  url: https://maxretail.com/contact-us/
+- type: Blog
+  url: https://maxretail.com/retailer-resources/
