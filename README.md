@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Max Retail is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Max Retail is a Techstars-backed platform that helps brick-and-mortar boutiques and multi-location retailers turn unsold and aged inventory into cash. Retailers connect their point-of-sale or e-commerce system — Shopify, RICS, or Square — or upload a CSV, and Max Retail lists, markets, and sells the items to a network of shoppers across multiple channels, handles customer service, and pays out through Stripe when a prepaid shipping label is scanned. The retailer only ships; Max Retail charges a flat 15% fee plus shipping. Max Retail integrates inbound with third-party commerce platforms and payment processors but does not publish a public developer API, SDKs, or a webhook surface of its own.
 
-Backed by: techstars — https://maxretail.com/
+**Areas:** Company · Retail · Inventory · E-Commerce · Point-of-Sale · Resale · Payments · Marketplace
+
+## Max Retail on APIs.io
+
+Everything profiled for Max Retail is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/max-retail/](https://apis.io/providers/max-retail/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Max Retail Domain Security](https://apis.io/security/max-retail/max-retail-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://maxretail.com/)
+- [Getting started](https://maxretail.com/how-it-works/)
+- [Pricing](https://maxretail.com/how-it-works-pricing/)
+- [Sign up](https://maxretail.com/start-selling/)
+- [Support](https://maxretail.com/contact-us/)
+- [Blog](https://maxretail.com/retailer-resources/)
+- [Privacy policy](https://maxretail.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 13.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.9** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/max-retail/](https://apis.io/providers/max-retail/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Max Retail: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/max-retail/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
